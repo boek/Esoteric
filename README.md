@@ -1,6 +1,6 @@
 # Esoteric
 
-Esoteric sorting algorithms.
+Esoteric (read: bullshit) sorting algorithms.
 
 ## Algorithms
 
