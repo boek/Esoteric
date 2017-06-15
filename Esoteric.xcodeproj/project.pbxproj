@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA7DDA101EF34FF100D237DE /* Array+Slowsort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DDA0F1EF34FF100D237DE /* Array+Slowsort.swift */; };
+		BA7DDA111EF3536F00D237DE /* ArraySlowsortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7DDA0E1EF34FBB00D237DE /* ArraySlowsortTests.swift */; };
 		BAAD55F51EF33A93009535EF /* Array+Shuffled.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD55F41EF33A93009535EF /* Array+Shuffled.swift */; };
 		BAAD55F71EF33AA3009535EF /* ArrayShuffledTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD55F61EF33AA3009535EF /* ArrayShuffledTests.swift */; };
 		BAAD55F91EF33D4C009535EF /* Array+IsSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAD55F81EF33D4C009535EF /* Array+IsSorted.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		BA7DDA0D1EF345D600D237DE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA7DDA0E1EF34FBB00D237DE /* ArraySlowsortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySlowsortTests.swift; sourceTree = "<group>"; };
+		BA7DDA0F1EF34FF100D237DE /* Array+Slowsort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Slowsort.swift"; sourceTree = "<group>"; };
 		BAAD55F41EF33A93009535EF /* Array+Shuffled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Shuffled.swift"; sourceTree = "<group>"; };
 		BAAD55F61EF33AA3009535EF /* ArrayShuffledTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayShuffledTests.swift; sourceTree = "<group>"; };
 		BAAD55F81EF33D4C009535EF /* Array+IsSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+IsSorted.swift"; sourceTree = "<group>"; };
@@ -67,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				BAED458B1EF31D6400C85827 /* Array+Bogosort.swift */,
+				BA7DDA0F1EF34FF100D237DE /* Array+Slowsort.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				BAED458F1EF3218A00C85827 /* ArrayBogosortTests.swift */,
+				BA7DDA0E1EF34FBB00D237DE /* ArraySlowsortTests.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 			files = (
 				BAED458C1EF31D6400C85827 /* Array+Bogosort.swift in Sources */,
 				BAAD55F91EF33D4C009535EF /* Array+IsSorted.swift in Sources */,
+				BA7DDA101EF34FF100D237DE /* Array+Slowsort.swift in Sources */,
 				BAAD55F51EF33A93009535EF /* Array+Shuffled.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +293,7 @@
 				BAED45921EF3246300C85827 /* Array+Factory.swift in Sources */,
 				BAAD55F71EF33AA3009535EF /* ArrayShuffledTests.swift in Sources */,
 				BAED45901EF3218A00C85827 /* ArrayBogosortTests.swift in Sources */,
+				BA7DDA111EF3536F00D237DE /* ArraySlowsortTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
