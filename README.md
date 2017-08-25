@@ -1,4 +1,4 @@
-# Esoteric
+# Esoteric test
 [![Build Status](https://travis-ci.org/jamescmartinez/Esoteric.svg?branch=master)](https://travis-ci.org/jamescmartinez/Esoteric)
 
 Esoteric (read: bullshit) sorting algorithms.
